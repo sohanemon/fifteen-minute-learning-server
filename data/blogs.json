@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "question": "What is CORS?",
+    "answer": "CORS stands for Cross-Origin Resource Sharing. It allows us to relax the security applied to an API. This is done by bypassing the Access-Control-Allow-Origin headers, which specify which origins can access the API.In other words, CORS is a browser security feature that restricts cross-origin HTTP requests with other servers and specifies which domains access your resources."
+  },
+  {
+    "id": "2",
+    "question": "Why are you using firebase? What other options do you have to implement authentication?",
+    "answer": "Firebase provides detailed documentation and cross-platform SDKs to help you build and ship apps on Android, iOS, the web, C++, and Unity. Some alternatives of Firebase: AuthO, MongoDB, Amazon Cognito, Back4App, Backendless, Parse"
+  },
+  {
+    "id": "3",
+    "question": "How does the private route work?",
+    "answer": "The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property."
+  },
+  {
+    "id": "4",
+    "question": "What is Node? How does Node work?",
+    "answer": "Node. js is a JavaScript runtime environment that achieves low latency and high throughput by taking a “non-blocking” approach to serving requests. In other words, Node. js wastes no time or resources on waiting for I/O requests to return. It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive."
+  }
+]
